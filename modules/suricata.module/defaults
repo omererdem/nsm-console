@@ -1,0 +1,2 @@
+SURICATA_CONF=${MODULE_DIR}/${MODULE_NAME}.module/suricata.yaml
+RULE_PATH=${MODULE_DIR}/${MODULE_NAME}.module/rules

@@ -1,0 +1,1 @@
+/usr/bin/suricata -c ${SURICATA_CONF} --set default-rule-path=${RULE_PATH} --set classification-file=${RULE_PATH}/classification.config --set reference-config-file=${RULE_PATH}/reference.config -r ${PCAP_FILE} -l ${OUTPUT_DIR}
